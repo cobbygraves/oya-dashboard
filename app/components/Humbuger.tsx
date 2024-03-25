@@ -15,7 +15,7 @@ export default function Humbuger({ active, handleActive }: HumbugerProps) {
         className={`h-1 bg-[#9b0102] ${
           active
             ? 'rotate-45 origin-left transition-all ease-in duration-300'
-            : 'bg-white transition-all ease-in duration-300'
+            : 'bg-[#9b0102] transition-all ease-in duration-300'
         } w-full`}
       ></span>
       <span
